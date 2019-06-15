@@ -22,7 +22,7 @@ class HelloUA extends React.Component {
   }
 
   render() {
-    return <div style={{'font-family': 'sans-serif'}}>
+    return <div style={{'fontFamily': 'sans-serif'}}>
         <h3>Hello World</h3>
         <h4>User Agent: {this.props.userAgent}</h4>
         <h4>API test: {this.props.time}</h4>
