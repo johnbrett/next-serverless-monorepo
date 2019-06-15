@@ -3,7 +3,7 @@ import axios from 'axios';
 const fetchTime = async () => {
   let time;
   try {
-    res = await axios('localhost:3000/api/test.js');
+    const res = await axios('localhost:3000/api/test.js');
     time = res.data;
   } catch (e) {
     time = e.message
